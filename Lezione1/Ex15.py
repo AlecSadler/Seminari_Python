@@ -2,12 +2,13 @@
 
 import numpy as np
 import matplotlib.pyplot as pl
+from math import e
 
 def f(x):
     a=float(2.0)
     xo=float(10.0)
     c=float(5.0)
-    y= (a*c)**(-((x-xo)**2)/2*(c**2))
+    y= (a*e)**(-((x-xo)**2)/2*(c**2))
     return y
 
 def g(x):
