@@ -45,19 +45,19 @@ G=(6.674E-11)*(m**3)*(Kg**-1)*(s**-2)
 
 
 #generate random initial positions and velocities for the 2 bodies
-x1=0 #np.random.uniform(-2,2,1)[0]
-y1=0 #np.random.uniform(-2,2,1)[0]
+x1=np.random.uniform(-2,2,1)[0]
+y1=np.random.uniform(-2,2,1)[0]
 
-x2=1 #np.random.uniform(-2,2,1)[0]
-y2=0 #np.random.uniform(-2,2,1)[0]
+x2=np.random.uniform(-2,2,1)[0]
+y2=np.random.uniform(-2,2,1)[0]
 
-vx1=0 #np.random.uniform(-2.,2.,1)[0]*3.14
-vy1=0 #np.random.uniform(-2.,2.,1)[0]*3.14
+vx1=np.random.uniform(-2.,2.,1)[0]*3.14
+vy1=np.random.uniform(-2.,2.,1)[0]*3.14
 
 
 
-vx2=0 #np.random.uniform(-2.,2.,1)[0]*3.14
-vy2=2*np.pi #np.random.uniform(-2.,2.,1)[0]*3.14
+vx2=np.random.uniform(-2.,2.,1)[0]*3.14
+vy2=np.random.uniform(-2.,2.,1)[0]*3.14
 
 
 
